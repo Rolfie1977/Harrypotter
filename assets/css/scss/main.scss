@@ -1,0 +1,14 @@
+// Import helpers (variables, mixins, placeholders)
+@import './helpers/variables';
+@import './helpers/mixin';
+@import './helpers/placeholders';
+
+// Global styles (like body styling)
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  padding: 20px;
+}
+
+// Import components (like your books styling)
+@import 'components/books';
