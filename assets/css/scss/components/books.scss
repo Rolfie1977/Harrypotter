@@ -58,3 +58,47 @@
     }
   }
   
+  // Responsivt design
+
+// Media query for tablets (768px and below)
+@media (max-width: 768px) {
+  .books-container {
+      justify-content: center;
+      gap: 15px;
+  }
+
+  .book-container {
+      width: 45%;  // Hver bogcontainer tager 45% af skærmbredden
+  }
+
+  .book-info {
+      padding: 10px;
+      font-size: 12px;
+  }
+}
+
+// Media query for mobile devices (480px and below)
+@media (max-width: 480px) {
+  .books-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .book-container {
+      width: 90%;  // Hver bogcontainer tager næsten hele skærmbredden
+  }
+
+  .book-info {
+      padding: 8px;
+      font-size: 12px;
+  }
+
+  .book-info h2 {
+      font-size: 16px;
+  }
+
+  .book-info p {
+      font-size: 12px;
+  }
+}
